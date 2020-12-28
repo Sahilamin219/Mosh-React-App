@@ -13,7 +13,25 @@ class App extends Component {
       { id: 4, value: 0 }
     ]
   };
-
+  constructor(props) {
+    //adding a constructor
+    super(props); //calling construtor from a parent class
+    console.log("App-Constructor");
+    // this.state=this.props.something;
+    // this.setState() will give error bcuz it can only be called
+    // we an component is rendered and placed in the DOMError.
+  }
+  componentDidMount() {
+    // this method is called after our component is rendered
+    // into the DOM
+    // Ajax call
+    // this.state({movies});
+    console.log("App-mounted");
+  }
+  componentWillUnmount() {
+    // this method is called just before a component is removed from the DOM
+    console.log("Counter - Unmount");
+  }
   handleIncr = (counter) => {
     // console.log("working");
     const counters = [...this.state.counters];
@@ -47,6 +65,7 @@ class App extends Component {
     this.setState({ counters });
   };
   render() {
+    console.log("app-rendered");
     return (
       <React.Fragment>
         <NavBar
@@ -66,3 +85,5 @@ class App extends Component {
   }
 }
 export default App;
+// when a componet is mounted that means its in the DOM and its the right place to make Ajax calls
+// and get the data from the server

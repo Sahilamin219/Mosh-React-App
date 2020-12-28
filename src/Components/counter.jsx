@@ -1,6 +1,16 @@
 import React, { Component } from "react";
 
 class Counter extends Component {
+  // update phase happens when state or props of a component change
+  componentDidUpdate(prevProps, prevState) {
+    // we can compare new state with old state or new props with old props
+    // and make AJAX call
+    console.log("prevProps", prevProps);
+    console.log("prevState", prevState);
+    if (prevProps.counter.value !== this.props.counter.value) {
+      // make AJAX call and get a new data from the server
+    }
+  }
   // state = {
   //   value : this.props.counter.value,
   //   tags:["t1", "t2", "t3"]
@@ -22,6 +32,7 @@ class Counter extends Component {
   //   this.setState({value : this.state.value -1});
   // }
   render() {
+    console.log("counter-rendering");
     // console.log("props", this.props);
     return (
       <div>
