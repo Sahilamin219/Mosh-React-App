@@ -41,6 +41,13 @@ class App extends Component {
     // console.log(this.state.counters[index]);
     this.setState({ counters });
   };
+  handleDcr = (counter) => {
+    const counters = [...this.state.counters];
+    const index = counters.indexOf(counter);
+    counters[index] = { ...counter };
+    counters[index].value--;
+    this.setState({ counters });
+  };
   handleDelete = (counter) => {
     // console.log("working");
     const counters = [...this.state.counters];
@@ -76,7 +83,7 @@ class App extends Component {
             counters={this.state.counters}
             onReset={this.handleReset}
             onIncr={this.handleIncr}
-            onDecr={this.handleDelete}
+            onDecr={this.handleDcr}
             onDelete={this.handleDelete}
           />
         </main>
