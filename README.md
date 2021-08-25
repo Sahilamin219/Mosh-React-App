@@ -1,63 +1,77 @@
 # Mosh-React-App
 
-Course-app-in-React
+* Course app in React
 
-Created React App Along Crash Course
+* Created React App Along Crash Course
 
-*React Component
+ # *Topics Covered*
+ 
+<div style="display:inlineflex" >
+  
+  >`React Component`
 
-*Specifying Children
+  >`Specifying Children`
+  
+  >`Embedding Expressions`
 
-*Embedding Expressions
+  >`Setting Attributes`
 
-*Setting Attributes
+  >`Rendering Classes Dynamically`
 
-*Rendering Classes Dynamically
+  >`Rendering Lists`
 
-*Rendering Lists
+  >`Conditional Rendering`
 
-*Conditional Rendering
+  >`Handling Events`
 
-*Handling Events
+  >`Binding Event Handlers`
 
-*Binding Event Handlers
+  >`Updating the State`
 
-*Updating the State
+  >`What Happens When State Changes`
 
-*What Happens When State Changes
+  >`Passing Event Arguments`
 
-*Passing Event Arguments
+  >`Composing Components`
 
-*Composing Components
+  >`Passing Data to Components`
 
-*Passing Data to Components
+  >`Passing Children`
 
-*Passing Children
+  </div>
+  <table>
 
-*Debugging React Apps
+  >`Debugging React Apps`
 
-*Props vs State
+  >`Props vs State`
 
-*Raising and Handling Events
+  >`Raising and Handling Events`
 
-*Updating the State
+  >`Updating the State`
 
-*Single Source of Truth
+  >`Single Source of Truth`
 
-*Removing the Local State
+  >`Removing the Local State`
 
-*Multiple Components in Sync
+  >`Multiple Components in Sync`
 
-*Lifting the State Up
+  >`Lifting the State Up`
 
-*Stateless Functional Components
+  >`Stateless Functional Components`
 
-*Destructuring Arguments
+  >`Destructuring Arguments`
 
-*Lifecycle Hooks
+  >`Lifecycle Hooks`
 
-*Mounting Phase
+  >`Mounting Phase`
 
-*Updating Phase
+  >`Updating Phase`
 
-*Unmounting Phase
+  >`Unmounting Phase`
+  
+  </table>
+    
+# 🤝 Contributing
+
+Contributions, issues and feature requests are welcome! Feel free to check [issues page](https://github.com/Sahilamin219/Mosh-React-App/issues).
+
